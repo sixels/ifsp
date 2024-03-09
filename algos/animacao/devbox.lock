@@ -1,0 +1,42 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "clang@latest": {
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#clang",
+      "source": "devbox-search",
+      "version": "16.0.6",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/6kpjydf9x7zqa1xq2qipnwr32ki3fs2n-clang-wrapper-16.0.6"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/v3pp0kc6dgx422rx5x50i3dx422f4bp5-clang-wrapper-16.0.6"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/y29n1if81nkx2gy37ir7jrhbcdaxn4lf-clang-wrapper-16.0.6"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/c2w4w4jcipkhazkq7fq85j4mynb268k9-clang-wrapper-16.0.6"
+        }
+      }
+    },
+    "gdb@latest": {
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#gdb",
+      "source": "devbox-search",
+      "version": "14.1",
+      "systems": {
+        "aarch64-linux": {
+          "store_path": "/nix/store/6f4p0a67vyns84nly9zgldf6w95lpi2m-gdb-14.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/vrls587r5hs85kz6al1r1np71wq9ydr3-gdb-14.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/gyjvq9wkgz1hmzavf59i4xi0bzs63c0j-gdb-14.1"
+        }
+      }
+    }
+  }
+}
